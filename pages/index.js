@@ -103,7 +103,7 @@ export default function Home(props) {
 							<a href="mailto:harshnaiksjsu@gmail.com">harshnaiksjsu@gmail.com</a>
 						</div>
 						<div className="details">
-							<Link href="https://github.com/autodidact7999" target="_blank">
+							<Link href="https://drive.google.com/file/d/1zcjt64sYhfiKNjyP5H5eTfw2DTfqgGui/view?usp=sharing" target="_blank">
 								<HiDocumentDownload size={18} />
 								<span>Resume</span>
 								<HiOutlineExternalLink size={16} />

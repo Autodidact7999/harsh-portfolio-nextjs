@@ -1,6 +1,8 @@
 import { ThemeProvider, createGlobalStyle } from "styled-components";
 import { useEffect, useState } from "react";
 import Head from "next/head";
+import { Analytics } from '@vercel/analytics/react';
+
 
 const LightTheme = {
   backgroundprimary: "#ffffff",
@@ -99,6 +101,7 @@ function MyApp({ Component, pageProps }) {
       <ThemeProvider theme={themes[theme]}>
         <Component theme={theme} setTheme={setTheme} {...pageProps} />
       </ThemeProvider>
+      <Analytics></Analytics>
     </>
   );
 }
